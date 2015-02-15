@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.HelloWorld", "HelloWorld\04.HelloWorld.csproj", "{DD67D7B9-F3B1-4009-9292-026AC6DEB810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PrintYourName", "PrintMyName\05.PrintYourName.csproj", "{83D448FC-FC20-493B-BCFD-9E6BD678154F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.PrintNumbers", "PrintNumbers\06.PrintNumbers.csproj", "{03981FC1-A7E5-4B20-981B-F971CEB4E8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.FirstAndLastName", "FirstAndLastName\07.FirstAndLastName.csproj", "{755F5198-D07D-43E9-BA95-B314CEFF710F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.SquareRootNumbers", "SquareRootNumbers\08.SquareRootNumbers.csproj", "{7437D4AC-D55B-4067-A300-BF1788089BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PrintSequence", "PrintSequence\09.PrintSequence.csproj", "{E432EA45-769D-4AA6-8F25-DCD61C468BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ReformatCSharpCode", "ReformatCSharpCode\10.ReformatCSharpCode.csproj", "{FC02FD8F-1386-44E1-AC74-85228AA75B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrentDateAndTime", "CurrentDateAndTime\CurrentDateAndTime.csproj", "{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD67D7B9-F3B1-4009-9292-026AC6DEB810}.Debug|x86.ActiveCfg = Debug|x86
+		{DD67D7B9-F3B1-4009-9292-026AC6DEB810}.Debug|x86.Build.0 = Debug|x86
+		{DD67D7B9-F3B1-4009-9292-026AC6DEB810}.Release|x86.ActiveCfg = Release|x86
+		{DD67D7B9-F3B1-4009-9292-026AC6DEB810}.Release|x86.Build.0 = Release|x86
+		{83D448FC-FC20-493B-BCFD-9E6BD678154F}.Debug|x86.ActiveCfg = Debug|x86
+		{83D448FC-FC20-493B-BCFD-9E6BD678154F}.Debug|x86.Build.0 = Debug|x86
+		{83D448FC-FC20-493B-BCFD-9E6BD678154F}.Release|x86.ActiveCfg = Release|x86
+		{83D448FC-FC20-493B-BCFD-9E6BD678154F}.Release|x86.Build.0 = Release|x86
+		{03981FC1-A7E5-4B20-981B-F971CEB4E8D9}.Debug|x86.ActiveCfg = Debug|x86
+		{03981FC1-A7E5-4B20-981B-F971CEB4E8D9}.Debug|x86.Build.0 = Debug|x86
+		{03981FC1-A7E5-4B20-981B-F971CEB4E8D9}.Release|x86.ActiveCfg = Release|x86
+		{03981FC1-A7E5-4B20-981B-F971CEB4E8D9}.Release|x86.Build.0 = Release|x86
+		{755F5198-D07D-43E9-BA95-B314CEFF710F}.Debug|x86.ActiveCfg = Debug|x86
+		{755F5198-D07D-43E9-BA95-B314CEFF710F}.Debug|x86.Build.0 = Debug|x86
+		{755F5198-D07D-43E9-BA95-B314CEFF710F}.Release|x86.ActiveCfg = Release|x86
+		{755F5198-D07D-43E9-BA95-B314CEFF710F}.Release|x86.Build.0 = Release|x86
+		{7437D4AC-D55B-4067-A300-BF1788089BA7}.Debug|x86.ActiveCfg = Debug|x86
+		{7437D4AC-D55B-4067-A300-BF1788089BA7}.Debug|x86.Build.0 = Debug|x86
+		{7437D4AC-D55B-4067-A300-BF1788089BA7}.Release|x86.ActiveCfg = Release|x86
+		{7437D4AC-D55B-4067-A300-BF1788089BA7}.Release|x86.Build.0 = Release|x86
+		{E432EA45-769D-4AA6-8F25-DCD61C468BF0}.Debug|x86.ActiveCfg = Debug|x86
+		{E432EA45-769D-4AA6-8F25-DCD61C468BF0}.Debug|x86.Build.0 = Debug|x86
+		{E432EA45-769D-4AA6-8F25-DCD61C468BF0}.Release|x86.ActiveCfg = Release|x86
+		{E432EA45-769D-4AA6-8F25-DCD61C468BF0}.Release|x86.Build.0 = Release|x86
+		{FC02FD8F-1386-44E1-AC74-85228AA75B81}.Debug|x86.ActiveCfg = Debug|x86
+		{FC02FD8F-1386-44E1-AC74-85228AA75B81}.Debug|x86.Build.0 = Debug|x86
+		{FC02FD8F-1386-44E1-AC74-85228AA75B81}.Release|x86.ActiveCfg = Release|x86
+		{FC02FD8F-1386-44E1-AC74-85228AA75B81}.Release|x86.Build.0 = Release|x86
+		{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}.Debug|x86.ActiveCfg = Debug|x86
+		{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}.Debug|x86.Build.0 = Debug|x86
+		{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}.Release|x86.ActiveCfg = Release|x86
+		{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
