@@ -1,3 +1,1 @@
 # Telerik-Software-Academy
-
-test
