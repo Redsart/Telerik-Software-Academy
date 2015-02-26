@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PrintSequence", "PrintSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ReformatCSharpCode", "ReformatCSharpCode\10.ReformatCSharpCode.csproj", "{FC02FD8F-1386-44E1-AC74-85228AA75B81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrentDateAndTime", "CurrentDateAndTime\CurrentDateAndTime.csproj", "{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.CurrentDateAndTime", "CurrentDateAndTime\14.CurrentDateAndTime.csproj", "{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.PrintLongSequence", "PrintLongSequence\16.PrintLongSequence.csproj", "{31020F67-4950-45D5-8DDB-0630E877F5B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}.Debug|x86.Build.0 = Debug|x86
 		{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}.Release|x86.ActiveCfg = Release|x86
 		{1D38C5A2-F3EC-4656-B6C6-029FE4F1E56F}.Release|x86.Build.0 = Release|x86
+		{31020F67-4950-45D5-8DDB-0630E877F5B0}.Debug|x86.ActiveCfg = Debug|x86
+		{31020F67-4950-45D5-8DDB-0630E877F5B0}.Debug|x86.Build.0 = Debug|x86
+		{31020F67-4950-45D5-8DDB-0630E877F5B0}.Release|x86.ActiveCfg = Release|x86
+		{31020F67-4950-45D5-8DDB-0630E877F5B0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
