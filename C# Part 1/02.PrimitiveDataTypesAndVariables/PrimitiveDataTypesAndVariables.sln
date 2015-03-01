@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.BankAccountData", "BankA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.NullValuesArithmetic", "NullValuesArithmetic\12.NullValuesArithmetic.csproj", "{D13FD883-CA3E-406A-B245-E5B0A609A3B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.CompareFloats", "CompareFloats\13.CompareFloats.csproj", "{8CA59111-F73F-4A17-9EC2-3B15D008373F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -79,6 +81,10 @@ Global
 		{D13FD883-CA3E-406A-B245-E5B0A609A3B9}.Debug|x86.Build.0 = Debug|x86
 		{D13FD883-CA3E-406A-B245-E5B0A609A3B9}.Release|x86.ActiveCfg = Release|x86
 		{D13FD883-CA3E-406A-B245-E5B0A609A3B9}.Release|x86.Build.0 = Release|x86
+		{8CA59111-F73F-4A17-9EC2-3B15D008373F}.Debug|x86.ActiveCfg = Debug|x86
+		{8CA59111-F73F-4A17-9EC2-3B15D008373F}.Debug|x86.Build.0 = Debug|x86
+		{8CA59111-F73F-4A17-9EC2-3B15D008373F}.Release|x86.ActiveCfg = Release|x86
+		{8CA59111-F73F-4A17-9EC2-3B15D008373F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
