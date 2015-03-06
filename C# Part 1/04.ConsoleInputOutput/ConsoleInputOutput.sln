@@ -19,7 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.NumbersFrom1ToN", "Numbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SumOfnNumbers", "SumOfnNumbers\09.SumOfnNumbers.csproj", "{395D48DC-3A24-4E3C-ABAC-6252DE830632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumbers", "FibonacciNumbers\FibonacciNumbers.csproj", "{BD89ABB5-202E-41C5-AA27-2FD9AD24115B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.FibonacciNumbers", "FibonacciNumbers\10.FibonacciNumbers.csproj", "{BD89ABB5-202E-41C5-AA27-2FD9AD24115B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.NumbersInIntervalDevidableByGivenNumber", "NumbersInIntervalDevidableByGivenNumber\11.NumbersInIntervalDevidableByGivenNumber.csproj", "{30CCDF5E-A1B9-490F-9632-BD1004558719}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{BD89ABB5-202E-41C5-AA27-2FD9AD24115B}.Debug|x86.Build.0 = Debug|x86
 		{BD89ABB5-202E-41C5-AA27-2FD9AD24115B}.Release|x86.ActiveCfg = Release|x86
 		{BD89ABB5-202E-41C5-AA27-2FD9AD24115B}.Release|x86.Build.0 = Release|x86
+		{30CCDF5E-A1B9-490F-9632-BD1004558719}.Debug|x86.ActiveCfg = Debug|x86
+		{30CCDF5E-A1B9-490F-9632-BD1004558719}.Debug|x86.Build.0 = Debug|x86
+		{30CCDF5E-A1B9-490F-9632-BD1004558719}.Release|x86.ActiveCfg = Release|x86
+		{30CCDF5E-A1B9-490F-9632-BD1004558719}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
