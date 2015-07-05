@@ -1,0 +1,12 @@
+
+1 The Web and the Internet began to really heat up and receive significant media exposure starting around 1994.
+2 Initially, the Web started as a great way for academics and researchers to distribute information;
+3 but as millions of consumers flocked to the Internet, it began to spawn completely new business models.
+4 Three good examples of innovative models include:
+5 
+6 - Amazon - Amazon (which opened its doors in July, 1995) houses a database of millions of products that anyone can browse 
+7 at any time. It would have been impossible to compile a list this large in any medium other than the Web.
+8 - Ebay - Online auctions make it easy and inexpensive for millions of people to buy and sell any imaginable item. 
+9 It would be impossible to do this at a reasonable cost or in a timely manner with any medium other than the Web.
+10 - Epinions - Thousands of people contribute to a shared library of product reviews. One of the Web's greatest strengths is 
+11 its worldwide view and collaborative possibilities.

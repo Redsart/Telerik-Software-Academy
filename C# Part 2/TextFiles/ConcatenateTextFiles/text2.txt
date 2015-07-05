@@ -1,0 +1,6 @@
+- Amazon - Amazon (which opened its doors in July, 1995) houses a database of millions of products that anyone can browse 
+at any time. It would have been impossible to compile a list this large in any medium other than the Web.
+- Ebay - Online auctions make it easy and inexpensive for millions of people to buy and sell any imaginable item. 
+It would be impossible to do this at a reasonable cost or in a timely manner with any medium other than the Web.
+- Epinions - Thousands of people contribute to a shared library of product reviews. One of the Web's greatest strengths is 
+its worldwide view and collaborative possibilities.
