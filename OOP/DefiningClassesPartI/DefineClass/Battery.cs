@@ -10,6 +10,7 @@ namespace DefineClass
         private double hoursIdle;
         private double hoursTalk;
         private string model;
+        private BatteryType type;
 
         public string Model
         {
@@ -57,7 +58,7 @@ namespace DefineClass
             }
             private set
             {
-                if (value==0 || value>10)
+                if (value==0 || value>50)
                 {
                     throw new ArgumentOutOfRangeException("Hours talk should be between 0-10!");
                 }
@@ -68,16 +69,36 @@ namespace DefineClass
             }
         }
 
-        public Battery(string model, double idle, double talk)
+        public BatteryType Type
+        {
+            get
+            {
+                return this.type;
+            }
+            private set
+        {
+            this.type = value;
+        }
+        }
+        //empty constructor setting "Standart" values for hours idle and hours talk
+        public Battery() : this("Standart",100.0,10.0,BatteryType.LiIon) { }
+
+        // Constructor taking 1 parameter for the model seting default setings for hours idle and hours talk
+        public Battery(string model):this(model,100.0,10.0, BatteryType.LiIon)
+        {
+        }
+
+        public Battery(string model, double idle, double talk, BatteryType type)
         {
             this.Model = model;
             this.HoursIdle = idle;
             this.HoursTalk = talk;
+            this.Type = type;
         }
 
         public override string ToString()
         {
-            return String.Format("Model: {0}, hours idle: {1}, hours talk: {2}",this.model,this.hoursIdle,this.HoursTalk);
+            return String.Format("Model: {0}, hours idle: {1}, hours talk: {2}, type: {3]",this.model,this.hoursIdle,this.hoursTalk,this.type);
         }
     }
 }

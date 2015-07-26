@@ -7,14 +7,14 @@ namespace DefineClass
 {
     public class Display
     {
-        private double size;
+        private double diagonal;
         private int numberOfColours;
 
-        public double Size
+        public double Diagonal
         {
             get
             {
-                return this.size;
+                return this.diagonal;
             }
             private set
             {
@@ -24,7 +24,7 @@ namespace DefineClass
                 }
                 else
                 {
-                    this.size = value;
+                    this.diagonal = value;
                 }
             }
         }
@@ -48,15 +48,22 @@ namespace DefineClass
             }
         }
 
+        //Empty constructor setting default values for screen diagonal and number of colours
+        public Display() : this(4.0,256) { }
+
+        //Constructor with 1 parameter size and default value for number of colours
+        public Display(double size) : this(size, 256) { }
+
+        //Full constructor taking parameters for size and number of colours
         public Display(double size, int colours)
         {
-            this.Size = size;
+            this.Diagonal = size;
             this.NumberOfColours = colours;
         }
 
         public override string ToString()
         {
-            return String.Format("The diagonal of display is {0}, the number of colours is {1}.",size,numberOfColours);
+            return String.Format("The diagonal of display is {0}, the number of colours is {1}.",this.diagonal,this.numberOfColours);
         }
     }
 }

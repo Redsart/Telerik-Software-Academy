@@ -15,7 +15,24 @@ namespace DefineClass
     {
         static void Main(string[] args)
         {
+            GSMTest.PrintGSMInfo(GSMTest.GenerateGsms(3));
+            Console.WriteLine(new string('-',50));
 
+            GSMCallHistoryTest.CreateCallHistory();
+            GSMCallHistoryTest.DisplayCallTestHistory();
+            Console.WriteLine(new string('-',50));
+            GSMCallHistoryTest.CalculateAndPrintTestCallPrice();
+            GSMCallHistoryTest.RemoveLongestCall();
+            Console.WriteLine(new string('-',50));
+            Console.WriteLine("{0}/n Price after longest call is removed",new string('-',50));
+            GSMCallHistoryTest.CalculateAndPrintTestCallPrice();
+            Console.WriteLine(new string('-',50));
+            Console.WriteLine("{0}/n Price after longest call is removed", new string('-', 50));
+            GSMCallHistoryTest.DisplayCallTestHistory();
+            Console.WriteLine(new string('-',50));
+            GSMCallHistoryTest.TestGSM.ClearCallsHistory();
+            Console.WriteLine("{0}\n{1}", "Call history list is cleared...", new string('-', 50));
+            GSMCallHistoryTest.DisplayCallTestHistory();
         }
     }
 }
