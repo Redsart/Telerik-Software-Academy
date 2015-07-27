@@ -5,9 +5,6 @@
 //Define 3 separate classes (class GSM holding instances of the classes Battery and Display).
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace DefineClass
 {

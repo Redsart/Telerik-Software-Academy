@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace DefineClass
 {
@@ -98,7 +95,8 @@ namespace DefineClass
 
         public override string ToString()
         {
-            return String.Format("Model: {0}, hours idle: {1}, hours talk: {2}, type: {3]",this.model,this.hoursIdle,this.hoursTalk,this.type);
+            return String.Format("Model: {0}, hours idle: {1}, hours talk: {2}, type: {3}",this.model,this.hoursIdle,this.hoursTalk,this.type); 
         }
+
     }
 }

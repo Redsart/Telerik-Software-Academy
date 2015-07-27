@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace DefineClass
 {
@@ -9,11 +8,11 @@ namespace DefineClass
     {
         public static GSM TestGSM = new GSM("Test GSM", "Test Model");
 
-        public static DateTime testCall1Date = DateTime.Parse("12/01/2015 18:15:12");
-        public static DateTime testCall2Date = DateTime.Parse("09/02/2015 14:01:45");
-        public static DateTime testCall3Date = DateTime.Parse("12/04/2015 01:13:15");
-        public static DateTime testCall4Date = DateTime.Parse("07/07/2015 12:12:12");
-        public static DateTime testCall5Date = DateTime.Parse("15/09/2015 22:00:59");
+        public static DateTime testCall1Date = DateTime.Parse("12/07/2015 18:15:12");
+        public static DateTime testCall2Date = DateTime.Parse("12/07/2015 19:01:45");
+        public static DateTime testCall3Date = DateTime.Parse("14/07/2015 01:13:15");
+        public static DateTime testCall4Date = DateTime.Parse("14/07/2015 12:12:12");
+        public static DateTime testCall5Date = DateTime.Parse("14/07/2015 22:00:59");
 
         public static Call[] testCalls =
         {
