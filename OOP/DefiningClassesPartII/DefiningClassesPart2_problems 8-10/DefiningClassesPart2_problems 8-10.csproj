@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{097BACC6-74E3-4F51-AC64-8E9E65A51C40}</ProjectGuid>
+    <ProjectGuid>{1EE3E5B3-2986-4ECD-B774-7BED5381718A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DefiningClassesPart2</RootNamespace>
-    <AssemblyName>DefiningClassesPart2</AssemblyName>
+    <RootNamespace>DefiningClassesPart2_problems_8_10</RootNamespace>
+    <AssemblyName>DefiningClassesPart2_problems 8-10</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DefiningClassesPart2Main.cs" />
-    <Compile Include="Distance.cs" />
-    <Compile Include="Path.cs" />
-    <Compile Include="PathStorage.cs" />
-    <Compile Include="Point3D.cs" />
+    <Compile Include="Matrix.cs" />
+    <Compile Include="MatrixClassMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
