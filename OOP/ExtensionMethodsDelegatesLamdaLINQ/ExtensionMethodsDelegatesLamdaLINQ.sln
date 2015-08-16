@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.StringBuilderSubstring", "StringBuilderSubstring\01.StringBuilderSubstring.csproj", "{9639B781-CB03-4B15-8854-79263EF44C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.IEnumerable Extensions", "IEnumerable Extensions\02.IEnumerable Extensions.csproj", "{09D71EEB-2ECA-41BE-AB6A-0C3CC8C7C613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Students", "Students\03.Students.csproj", "{47146B44-FC34-4401-A7B0-A5597E911292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9639B781-CB03-4B15-8854-79263EF44C04}.Debug|x86.ActiveCfg = Debug|x86
+		{9639B781-CB03-4B15-8854-79263EF44C04}.Debug|x86.Build.0 = Debug|x86
+		{9639B781-CB03-4B15-8854-79263EF44C04}.Release|x86.ActiveCfg = Release|x86
+		{9639B781-CB03-4B15-8854-79263EF44C04}.Release|x86.Build.0 = Release|x86
+		{09D71EEB-2ECA-41BE-AB6A-0C3CC8C7C613}.Debug|x86.ActiveCfg = Debug|x86
+		{09D71EEB-2ECA-41BE-AB6A-0C3CC8C7C613}.Debug|x86.Build.0 = Debug|x86
+		{09D71EEB-2ECA-41BE-AB6A-0C3CC8C7C613}.Release|x86.ActiveCfg = Release|x86
+		{09D71EEB-2ECA-41BE-AB6A-0C3CC8C7C613}.Release|x86.Build.0 = Release|x86
+		{47146B44-FC34-4401-A7B0-A5597E911292}.Debug|x86.ActiveCfg = Debug|x86
+		{47146B44-FC34-4401-A7B0-A5597E911292}.Debug|x86.Build.0 = Debug|x86
+		{47146B44-FC34-4401-A7B0-A5597E911292}.Release|x86.ActiveCfg = Release|x86
+		{47146B44-FC34-4401-A7B0-A5597E911292}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
