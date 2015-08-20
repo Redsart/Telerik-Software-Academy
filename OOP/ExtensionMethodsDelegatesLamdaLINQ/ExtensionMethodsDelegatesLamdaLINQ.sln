@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.IEnumerable Extensions",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Students", "Students\03.Students.csproj", "{47146B44-FC34-4401-A7B0-A5597E911292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.DivisibleBy7And3", "DivisibleBy7And3\04.DivisibleBy7And3.csproj", "{E1B9ADDF-D3E8-44EE-8CA4-3FB9D8711933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Timer", "Timer\05.Timer.csproj", "{54773DA7-4303-44DE-9950-6E89AA918D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Events", "Events\06.Events.csproj", "{D1A11DF2-1BE2-4AB3-9C08-3E47295181A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGroups", "StudentGroups\StudentGroups.csproj", "{7399D2B2-0F16-427C-AF21-4D1AB616CE79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +33,22 @@ Global
 		{47146B44-FC34-4401-A7B0-A5597E911292}.Debug|x86.Build.0 = Debug|x86
 		{47146B44-FC34-4401-A7B0-A5597E911292}.Release|x86.ActiveCfg = Release|x86
 		{47146B44-FC34-4401-A7B0-A5597E911292}.Release|x86.Build.0 = Release|x86
+		{E1B9ADDF-D3E8-44EE-8CA4-3FB9D8711933}.Debug|x86.ActiveCfg = Debug|x86
+		{E1B9ADDF-D3E8-44EE-8CA4-3FB9D8711933}.Debug|x86.Build.0 = Debug|x86
+		{E1B9ADDF-D3E8-44EE-8CA4-3FB9D8711933}.Release|x86.ActiveCfg = Release|x86
+		{E1B9ADDF-D3E8-44EE-8CA4-3FB9D8711933}.Release|x86.Build.0 = Release|x86
+		{54773DA7-4303-44DE-9950-6E89AA918D88}.Debug|x86.ActiveCfg = Debug|x86
+		{54773DA7-4303-44DE-9950-6E89AA918D88}.Debug|x86.Build.0 = Debug|x86
+		{54773DA7-4303-44DE-9950-6E89AA918D88}.Release|x86.ActiveCfg = Release|x86
+		{54773DA7-4303-44DE-9950-6E89AA918D88}.Release|x86.Build.0 = Release|x86
+		{D1A11DF2-1BE2-4AB3-9C08-3E47295181A0}.Debug|x86.ActiveCfg = Debug|x86
+		{D1A11DF2-1BE2-4AB3-9C08-3E47295181A0}.Debug|x86.Build.0 = Debug|x86
+		{D1A11DF2-1BE2-4AB3-9C08-3E47295181A0}.Release|x86.ActiveCfg = Release|x86
+		{D1A11DF2-1BE2-4AB3-9C08-3E47295181A0}.Release|x86.Build.0 = Release|x86
+		{7399D2B2-0F16-427C-AF21-4D1AB616CE79}.Debug|x86.ActiveCfg = Debug|x86
+		{7399D2B2-0F16-427C-AF21-4D1AB616CE79}.Debug|x86.Build.0 = Debug|x86
+		{7399D2B2-0F16-427C-AF21-4D1AB616CE79}.Release|x86.ActiveCfg = Release|x86
+		{7399D2B2-0F16-427C-AF21-4D1AB616CE79}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
