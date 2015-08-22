@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Timer", "Timer\05.Timer.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Events", "Events\06.Events.csproj", "{D1A11DF2-1BE2-4AB3-9C08-3E47295181A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGroups", "StudentGroups\StudentGroups.csproj", "{7399D2B2-0F16-427C-AF21-4D1AB616CE79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.StudentGroups", "StudentGroups\07.StudentGroups.csproj", "{7399D2B2-0F16-427C-AF21-4D1AB616CE79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.LongestString", "LongestString\08.LongestString.csproj", "{918D3608-D26B-4459-B7E9-73F65E4AD935}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{7399D2B2-0F16-427C-AF21-4D1AB616CE79}.Debug|x86.Build.0 = Debug|x86
 		{7399D2B2-0F16-427C-AF21-4D1AB616CE79}.Release|x86.ActiveCfg = Release|x86
 		{7399D2B2-0F16-427C-AF21-4D1AB616CE79}.Release|x86.Build.0 = Release|x86
+		{918D3608-D26B-4459-B7E9-73F65E4AD935}.Debug|x86.ActiveCfg = Debug|x86
+		{918D3608-D26B-4459-B7E9-73F65E4AD935}.Debug|x86.Build.0 = Debug|x86
+		{918D3608-D26B-4459-B7E9-73F65E4AD935}.Release|x86.ActiveCfg = Release|x86
+		{918D3608-D26B-4459-B7E9-73F65E4AD935}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,7 +22,7 @@ namespace Events
 
             if (handler !=null)
             {
-                e.SampleMessage += String.Format("at {0}",DateTime.Now);
+                e.SampleMessage += String.Format(" at {0}",DateTime.Now);
                 handler(this, e);
             }
         }
