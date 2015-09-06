@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="School.Disciplines" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAIFAAAQAAAAEAAAAABAAEAAAAAA=</HashCode>
+      <FileName>Disciplines.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="School.People" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>People.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="School.SchoolClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAEgAgAAA=</HashCode>
+      <FileName>SchoolClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="School.SchoolMain" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>SchoolMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="School.Student" Collapsed="true">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <AssociationLine Name="SchoolClass" Type="School.SchoolClass">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.05" Y="0.027" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SchoolClass" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="School.Teacher" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <AssociationLine Name="SchoolClass" Type="School.SchoolClass">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.005" Y="0.081" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAEAAAAAAAAQAAAAEAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SchoolClass" />
+      <Property Name="Disciplines1" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.112" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
