@@ -1,0 +1,42 @@
+﻿table{
+    background-color: #3e3e3e;
+    margin: 15px;
+    padding: 20px;
+    font-family: Arial;
+    color: #B4AC9D;
+}
+
+table th{
+    font-weight:normal;
+    text-align:left;
+    font-size:20px;
+}
+
+table tr td:first-child{
+    color: #ffffff;
+    font-style:italic;
+    padding:20px;
+}
+
+table td{
+    padding:7px;
+}
+
+a{
+    text-decoration:none;
+    color: #f8ee77
+}
+
+#userstatus{
+    color:green;
+}
+
+#inactiveuser{
+    color:red;
+    font-weight:500;
+}
+
+#notanswered{
+    color: #f55007;
+    font-weight:500;
+}
