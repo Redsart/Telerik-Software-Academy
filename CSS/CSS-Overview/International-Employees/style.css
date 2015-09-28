@@ -24,7 +24,7 @@ td{
 }
 
 
-tr:nth-child(2n+1) {
+tr:nth-child(2n) {
     background-color:#ededda;
 }
 th:last-child {
