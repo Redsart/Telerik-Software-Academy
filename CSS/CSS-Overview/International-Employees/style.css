@@ -9,7 +9,7 @@ table{
     border-spacing:0;
 }
 
-table thead{
+table thead tr{
     text-align:left;
     color: #FFFFFF;
     font-weight:100;

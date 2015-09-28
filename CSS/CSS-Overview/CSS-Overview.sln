@@ -5,7 +5,9 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Ticket", "Ticket\01.Ticket.csproj", "{A11EF50C-F58D-4D5B-93DB-4FFE131BA6CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "International-Employees", "International-Employees\International-Employees.csproj", "{A9159215-BA0B-41FF-B720-E04286EC603C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.International-Employees", "International-Employees\02.International-Employees.csproj", "{A9159215-BA0B-41FF-B720-E04286EC603C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ForumPosts", "ForumPosts\03.ForumPosts.csproj", "{6BED0700-7EE6-4149-A2CB-E306DB044D06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A9159215-BA0B-41FF-B720-E04286EC603C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9159215-BA0B-41FF-B720-E04286EC603C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9159215-BA0B-41FF-B720-E04286EC603C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BED0700-7EE6-4149-A2CB-E306DB044D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BED0700-7EE6-4149-A2CB-E306DB044D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BED0700-7EE6-4149-A2CB-E306DB044D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BED0700-7EE6-4149-A2CB-E306DB044D06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
