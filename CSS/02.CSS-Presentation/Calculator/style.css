@@ -1,0 +1,103 @@
+﻿body{
+    font-family:Arial;
+}
+#calc{
+    width:450px;
+    border:1px solid #171717;
+    background:linear-gradient(#EEEEEE, #DEEAF6 80%);
+    display:inline-table;
+}
+
+#nav{
+    background:repeating-linear-gradient(#D7DBDA, #B1B1B1 );
+    font-size:16px;
+    width: 100%;
+    border-bottom: 1px solid #8E9DAF;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+#nav tr td:first-letter{
+    text-decoration: underline;
+}
+
+#display{
+    width:98%;
+    height:40px;
+    margin:5px;
+    text-align:right;
+    font-size: 20px;
+    border:1px solid #171717;
+    background: linear-gradient(#E7EFFB, #FFF);
+    border-radius:3px;
+}
+
+#binary{
+    font-family:Consolas;
+    width:98%;
+    margin:5px;
+    border: 1px solid #8E9DAF;
+    border-radius:3px;
+}
+
+    #binary tr td {
+        font-size: 14px;
+        padding: 0 10px 0 10px;
+    }
+
+    #binary tr:nth-child(even) {
+    color: #999;
+}
+    #fieldsets, #buttonTable {
+    float: left;
+}
+article > fieldset{
+    font-family:Consolas;
+    font-size:14px;
+    border:1px solid #8E9DAF;
+    border-radius:3px;
+    width:80px;
+    margin-top:8px;
+    padding:5px;
+}
+
+#buttonTable tr td{
+    width:40px;
+    height:40px;
+    margin:0;
+}
+
+button{
+    font-family:Arial;
+    font-weight:lighter;
+    color: #223F61;
+    font-size:16px;
+    margin:0;
+    width:100%;
+    height:100%;
+    padding:1px;
+    border: 1px solid #93A1B1;
+    border-radius:3px;
+    background: linear-gradient(#EEF4F9 50%, #D8E3F0 50%);
+}
+
+button:disabled {
+    background: none;
+    background-color: #DBE6F2;
+}
+
+    button:hover:enabled {
+        border-color: #F6D712;
+        background: linear-gradient(#FDEEDE 50%, #FBD47E 50%);
+        box-shadow: inset 0 0 10px #FEFBF8;
+    }
+
+    .digit {
+    font-size: 16px;
+    background: linear-gradient(#F7FAFE 50%, #E9F0F7 50%);
+}
+
+    .hex{
+        font-size:16px;
+        background:repeating-linear-gradient(#EEE, #DEEAF6 )
+    }
