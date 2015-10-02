@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeView", "TreeView\TreeView.csproj", "{B1B1397F-2BEE-4558-9E24-FCBB8F637918}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TreeView", "TreeView\01.TreeView.csproj", "{B1B1397F-2BEE-4558-9E24-FCBB8F637918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MusicCategories", "MusicCategories\02.MusicCategories.csproj", "{0DC51A1A-9D4B-4B49-8090-ECEE44F5C43A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B1B1397F-2BEE-4558-9E24-FCBB8F637918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B1397F-2BEE-4558-9E24-FCBB8F637918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B1397F-2BEE-4558-9E24-FCBB8F637918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC51A1A-9D4B-4B49-8090-ECEE44F5C43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC51A1A-9D4B-4B49-8090-ECEE44F5C43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC51A1A-9D4B-4B49-8090-ECEE44F5C43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC51A1A-9D4B-4B49-8090-ECEE44F5C43A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
