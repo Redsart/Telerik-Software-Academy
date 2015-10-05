@@ -1,0 +1,79 @@
+﻿body {
+    font-family:Candara;
+    border:1px solid #000;
+    border-radius:5px 5px 5px 5px;
+    width:720px;
+    height:440px;
+}
+
+a{
+    color: #4db4ff;
+}
+
+header nav{
+    border-bottom:2px;
+    text-align:center;
+    font-size:20px;
+    margin:20px;
+    display:inline;
+}
+
+section{
+    width:512px;
+    border:1px solid #000;
+    overflow:auto;
+    float:left;
+}
+
+article{
+    margin:0;
+}
+
+fieldset {
+    margin:0 1px 0;
+    padding: 0;
+    display:inline-block;
+    width:250px;
+    float: left;
+}
+
+fieldset legend {
+    margin: 0 30px;
+}
+
+fieldset img {
+    width:120px;
+    height:70px;
+    margin:5px;
+    float:left;
+}
+
+    fieldset > span {
+        display: inline-block;
+        margin: 5px;
+        width:80px;
+    }
+
+        fieldset > span:first-of-type {
+    margin-top:30px;
+}
+
+    fieldset>div > span {
+        display: inline-block;
+        margin: 5px 10px 5px;
+        width:100px;
+}
+
+    ul {
+    list-style-type: none;
+    margin: 20px;
+}
+
+        ul li {
+        margin: 40px;
+        font-size: 20px;
+    }
+
+        input[type="range"] {
+    width: 200px;
+}

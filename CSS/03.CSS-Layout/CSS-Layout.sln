@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MembersLogin", "MembersL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CSS-DocumentationSite", "CSS-DocumentationSite\04.CSS-DocumentationSite.csproj", "{B729E9F3-4EB8-457A-B022-30D5447E3B56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.LaptopStore", "LaptopStore\05.LaptopStore.csproj", "{7C9D1D42-F9D5-4F66-9643-607486CCC5AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B729E9F3-4EB8-457A-B022-30D5447E3B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B729E9F3-4EB8-457A-B022-30D5447E3B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B729E9F3-4EB8-457A-B022-30D5447E3B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9D1D42-F9D5-4F66-9643-607486CCC5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9D1D42-F9D5-4F66-9643-607486CCC5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9D1D42-F9D5-4F66-9643-607486CCC5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9D1D42-F9D5-4F66-9643-607486CCC5AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
