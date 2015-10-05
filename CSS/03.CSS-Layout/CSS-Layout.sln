@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CSS-DocumentationSite", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.LaptopStore", "LaptopStore\05.LaptopStore.csproj", "{7C9D1D42-F9D5-4F66-9643-607486CCC5AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.News", "News\06.News.csproj", "{0D9330F0-6B9E-4267-93FE-34BF4B89FFC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7C9D1D42-F9D5-4F66-9643-607486CCC5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C9D1D42-F9D5-4F66-9643-607486CCC5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C9D1D42-F9D5-4F66-9643-607486CCC5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9330F0-6B9E-4267-93FE-34BF4B89FFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9330F0-6B9E-4267-93FE-34BF4B89FFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9330F0-6B9E-4267-93FE-34BF4B89FFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9330F0-6B9E-4267-93FE-34BF4B89FFC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
