@@ -1,0 +1,22 @@
+﻿@width:200px;
+@height:120px;
+@resizedWidth:(@width * 3);@import "style.css";
+@resizedHeight:(@height * 3);
+
+body {
+    background-color:#f6f23a;
+}
+
+nav{
+    img{
+        width:@width;
+        height:@height;
+        display:inline-block;
+        &:hover{
+            width:@resizedWidth;
+            height:@resizedHeight;
+        }
+    }
+}
+
+
