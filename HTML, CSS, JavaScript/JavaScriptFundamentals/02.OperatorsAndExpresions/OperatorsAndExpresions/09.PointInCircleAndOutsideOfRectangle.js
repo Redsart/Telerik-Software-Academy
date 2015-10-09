@@ -6,8 +6,7 @@ radius = 3;
 function pointPosition(x, y) {
     if (((x - 1) * (x - 1) + (y - 1) * (y)) <= (radius * radius) && ((x < -1) || (x > 5) || (y > 1) || (y < -1))) {
         return ('The point with coordinates: x=' + x + ' y=' + y + ' is inside the circle and outside of rectangle');
-    }
-    else {
+    } else {
         return ('The point with coordinates: x=' + x + ' y=' + y + ' is not inside the circle and outside of rectangle');
     }
 }

@@ -6,10 +6,9 @@ var radius=5;
 
 function pointInCircle(x, y) {
     if ((x * x + y * y) <= radius * radius) {
-        return ('The point with positions: x=' + x + ' y=' + y + ' - is inside the circle')
-    }
-    else {
-        return ('The point with positions: x=' + x + ' y=' + y + ' - is outside the circle')
+        return ('The point with positions: x=' + x + ' y=' + y + ' - is inside the circle');
+    } else {
+        return ('The point with positions: x=' + x + ' y=' + y + ' - is outside the circle');
     }
 }
 

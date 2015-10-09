@@ -4,8 +4,7 @@
 function thirdDigitisSeven(number) {
     if((Math.floor(number/100)%10==7)){
         return (number + '- third digit is 7');
-    }
-    else {
+    } else {
         return (number + '- third digit is not 7');
     }
 }

@@ -4,8 +4,7 @@
 function isOdd(number) {
     if (number % 2 === 0) {
         return (number + ' is even');
-    }
-    else {
+    } else {
         return (number + ' is odd');
     }
 }

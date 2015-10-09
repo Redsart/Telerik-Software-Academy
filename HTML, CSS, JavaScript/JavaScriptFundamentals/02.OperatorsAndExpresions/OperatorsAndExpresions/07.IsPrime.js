@@ -6,15 +6,12 @@ function isPrime(number) {
     if (number >= 0 && number < 101) {
         if (number == 2 || number == 3 || number == 5 || number == 7) {
             return (number + ' is prime');
-        }
-        else if (number % 2 != 0 && number % 3 != 0 && number % 5 != 0 && number % 7 != 0) {
+        } else if (number % 2 != 0 && number % 3 != 0 && number % 5 != 0 && number % 7 != 0) {
             return (number + ' is prime');
-        }
-        else {
+        } else {
             return (number + ' is not prime');
         }
-    }
-    else {
+    } else {
         return (number + ' must be ≤ 100');
     }
 }
