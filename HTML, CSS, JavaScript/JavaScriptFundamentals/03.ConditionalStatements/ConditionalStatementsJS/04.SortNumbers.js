@@ -14,31 +14,26 @@ function sortedNumbers(a, b, c) {
             if (b >= c) {
                 second = b;
                 third = c;
-            }
-            else {
+            } else {
                 second = c;
                 third = b;
             }
-        }
-        else {
+        } else {
             first = c;
             second = a;
             third = b;
         }
-    }
-    else {
+    } else {
         if (b >= c) {
             first = b;
             if (a >= c) {
                 second = a;
                 third = c;
-            }
-            else {
+            } else {
                 second = c;
                 third = a;
             }
-        }
-        else {
+        } else {
             first = c;
             second = b;
             third = a;

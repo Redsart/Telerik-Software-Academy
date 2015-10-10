@@ -70,6 +70,8 @@
     <Content Include="03.TheBiggestOfThree.js" />
     <Content Include="04.SortNumbers.js" />
     <Content Include="05.DigitAsWord.js" />
+    <Content Include="06.QuadraticEquation.js" />
+    <Content Include="07.TheBiggestOfFiveNumbers.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
